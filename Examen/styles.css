@@ -1,0 +1,316 @@
+@font-face {
+    font-family: "letra";
+    src: url(./fonts/Myriad\ Pro\ Light.otf);
+}
+
+
+
+
+
+
+body {
+    width: 1920px;
+    height: 1080px;
+    background-image: url("./images/Fondo.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+header {
+    position: absolute;
+    border-bottom: 1px solid #707070;
+    top : -2vw;
+    width: 100%;
+    left : 0;
+    height: 16vh;
+    background-color: #3266cc;
+
+}
+
+
+.inicio {
+    position: absolute;
+    font-family: "letra";
+    width: 2vw;
+    color: white;
+    height: 2vh;
+    font-size: 1.5vw;
+    margin-left: 18vw;
+    top: 5vh;
+}
+
+.que {
+    position: absolute;
+    font-family: "letra";
+    width: 6vw;
+    color: white;
+    height: 2vh;
+    font-size: 1.5vw;
+    margin-left: 18vw;
+    top: 5vh;
+    margin-left: 30vw;
+    
+}
+
+
+.gobierno {
+    position: absolute;
+    width: 16vw;
+    height: 9vh;
+    top: 1.5vh;
+    margin-left: 44vw;
+}
+
+.entrega {
+    position: absolute;
+    font-family: "letra";
+    font-size: 1.5vw;
+    color: white;
+    top: 5vh;
+    margin-left: 68vw;
+}
+
+.boton {
+    position: absolute;
+    background-color: white;
+    width: 10vw;
+    height: 5vh;
+    border-radius: 10vw;
+    top: 7.3vh;
+    margin-left: 83vw;
+}
+
+.consult {
+    position: absolute;
+    font-family: "letra";
+    font-size: 1.5vw;
+    top: -2vh;
+    left: 2vw;
+    font-weight: 6vw;
+}
+
+
+
+
+
+
+.blanco {
+    position: relative;
+    width: 35vw;
+    height: 76vh;
+    background-color: white;
+    top: 20vh;
+    margin-left: 5vw;
+    border-radius: 5%;
+    
+}
+
+.title {
+    position: relative;
+    font-family: "letra";
+    font-size: 3vw;
+    left: 60vw;
+    width: 20vw;
+    top: -38vh;
+}
+
+.abajo {
+    position: relative;
+    font-family: "letra";
+    font-size: 1.5vw;
+    width: 32vw;
+    left: 58vw;
+    top: -40vh;
+    justify-content: center;
+}
+
+
+.azul {
+    position: absolute;
+    background-color: #1573fb;
+    width: 12vw;
+    height: 6vh;
+    border-radius: 10vw;
+    top: 80vh;
+    margin-left: 65vw;
+}
+
+.learn {
+    position: absolute;
+    font-family: "letra";
+    font-size: 1.5vw;
+    color: white;
+    top: -2vh;
+    left: 2vw;
+}
+
+
+.text1 {
+    position: relative;
+    font-family: "letra";
+    font-size: 2vw;
+    left: 8vw;
+    width: 20vw;
+    top: 5vh;
+    color: black;
+    font-weight: 900;
+}
+
+.text2 {
+    position: relative;
+    font-family: "letra";
+    font-size: 2vw;
+    left: 14vw;
+    width: 20vw;
+    top: 2vh;
+    color: black;
+    font-weight: 900;
+}
+
+.text3 {
+    position: relative;
+    font-family: "letra";
+    font-size: 2vw;
+    left: 13.5vw;
+    width: 20vw;
+    top: -1vh;
+    color: black;
+    font-weight: 900;
+}
+
+.text4 {
+    position: relative;
+    font-family: "letra";
+    font-size: 0.8vw;
+    left: 6vw;
+    width: 23vw;
+    top: -2vh;
+    color: black;
+    font-weight: 900;
+    text-align: center;
+}
+
+.doc {
+    position: absolute;
+    font-family: "letra";
+    font-size: 1vw;
+    font-weight: 900;
+    top: 30vh;
+    left: 2vw;
+}
+
+.num {
+    position: absolute;
+    font-family: "letra";
+    font-size: 1vw;
+    font-weight: 900;
+    top: 35vh;
+    left: 2vw;
+}
+
+.firstName {
+    position: absolute;
+    font-family: "letra";
+    font-size: 1vw;
+    font-weight: 900;
+    top: 40vh;
+    left: 2vw;
+}
+
+.firstAppend {
+    position: absolute;
+    font-family: "letra";
+    font-size: 1vw;
+    font-weight: 900;
+    top: 45vh;
+    left: 2vw;
+}
+
+.fecha {
+    position: absolute;
+    font-family: "letra";
+    font-size: 1vw;
+    font-weight: 900;
+    top: 50vh;
+    left: 2vw;
+}
+
+.tel {
+    position: absolute;
+    font-family: "letra";
+    font-size: 1vw;
+    font-weight: 900;
+    top: 55vh;
+    left: 2vw;
+}
+
+.cuadro1 {
+    position: absolute;
+    top: 17vw;
+    width: 30vw;
+    left: 2vw;
+    height: 2.2vh;
+}
+
+.cuadro2 {
+    position: absolute;
+    top: 19.8vw;
+    width: 30vw;
+    left: 2vw;
+    height: 2.2vh;
+}
+
+.cuadro3 {
+    position: absolute;
+    top: 22.3vw;
+    width: 30vw;
+    left: 2vw;
+    height: 2.2vh;
+}
+
+.cuadro4 {
+    position: absolute;
+    top: 24.7vw;
+    width: 30vw;
+    left: 2vw;
+    height: 2.2vh;
+}
+
+
+.cuadro5 {
+    position: absolute;
+    top: 27.2vw;
+    width: 30vw;
+    left: 2vw;
+    height: 2.2vh;
+}
+
+.cuadro6 {
+    position: absolute;
+    top: 30vw;
+    width: 30vw;
+    left: 2vw;
+    height: 2.2vh;
+}
+
+.otro {
+    position: absolute;
+    background-color: #1573fb;
+    width: 12vw;
+    height: 6vh;
+    border-radius: 10vw;
+    top: 66vh;
+    margin-left: 10vw;
+
+}
+
+.txt {
+    position: absolute;
+    color: white;
+    font-family: "letra";
+    font-size: 1.5vw;
+    font-weight: 900;
+    top: -1.5vh;
+    left: 3vw;
+}
